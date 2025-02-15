@@ -4,7 +4,10 @@
 
 This project is inspired by the project [ollama-tauri-client](https://github.com/elijahmg/ollama-tauri-client) from [Ilya F](https://github.com/elijahmg).
 
-Here we are using the [Qwik](https://qwik.dev/) frontend framework instead of Svelte.
+It's built with usage of [Ollama](https://ollama.com/) and [Tauri](https://tauri.app/) + [Qwik](https://qwik.dev/)
+
+Here we are using the [Qwik](https://qwik.dev/) O(1) frontend framework instead of Svelte.
+
 
 ## Get Started
 
