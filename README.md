@@ -27,11 +27,11 @@ npm install -g pnpm
 To run in development mode
 
 ```sh
-pnpm tauri dev
+pnpm tauri dev # or `npm tauri dev`
 ```
 
 To build from source
 
 ```sh
-pnpm tauri build
+pnpm tauri build # or `npm tauri build`
 ```
