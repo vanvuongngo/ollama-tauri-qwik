@@ -4,6 +4,8 @@
   "description": "AI Agent for Ollama. It's built with usage of Ollama and Tauri + Qwik",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm --filter './apps/*' tauri dev",
+    "build": "pnpm --filter './apps/*' tauri build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

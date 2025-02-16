@@ -5,9 +5,7 @@ export default component$(() => {
   return (
     <>
       <h1>Hi</h1>
-      <div>
-        Happy coding.
-      </div>
+      <div>Happy coding.</div>
     </>
   );
 });
