@@ -24,6 +24,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 npm install -g pnpm
 ```
 
+For the qwik frontend (already done in this demo)
+```sh
+pnpm add -D -w @tauri-apps/api # or `cd apps/ollama-tauri-qwik && npm i -D @tauri-apps/api` 
+```
+
 ### Start app
 
 To run in development mode
