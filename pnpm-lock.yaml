@@ -14,6 +14,9 @@ importers:
       '@builder.io/qwik-city':
         specifier: ^1.12.0
         version: 1.12.0(acorn@8.14.0)(rollup@4.34.7)(typescript@5.4.5)(vite@5.3.5(@types/node@20.14.11))
+      '@tauri-apps/api':
+        specifier: ^2.2.0
+        version: 2.2.0
       '@tauri-apps/cli':
         specifier: ^2.2.7
         version: 2.2.7
@@ -463,6 +466,9 @@ packages:
     resolution: {integrity: sha512-4ZedScpxxIrVO7otcZ8kCX1mZArtH2Wfj3uFCxRJ9NO80gg1XV0U/b2f/MKaGwj2X3QopHfoWiDQ917FRpwY3w==}
     cpu: [x64]
     os: [win32]
+
+  '@tauri-apps/api@2.2.0':
+    resolution: {integrity: sha512-R8epOeZl1eJEl603aUMIGb4RXlhPjpgxbGVEaqY+0G5JG9vzV/clNlzTeqc+NLYXVqXcn8mb4c5b9pJIUDEyAg==}
 
   '@tauri-apps/cli-darwin-arm64@2.2.7':
     resolution: {integrity: sha512-54kcpxZ3X1Rq+pPTzk3iIcjEVY4yv493uRx/80rLoAA95vAC0c//31Whz75UVddDjJfZvXlXZ3uSZ+bnCOnt0A==}
@@ -2256,6 +2262,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.34.7':
     optional: true
+
+  '@tauri-apps/api@2.2.0': {}
 
   '@tauri-apps/cli-darwin-arm64@2.2.7':
     optional: true
