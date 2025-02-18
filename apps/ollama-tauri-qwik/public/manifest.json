@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "ollama-tauri-qwik",
+  "short_name": "Ollama Tauri Qwik client example",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Ollama Tauri Qwik client. Demo of using Ollama with Tauri"
+}
