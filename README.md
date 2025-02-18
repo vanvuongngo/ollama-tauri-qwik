@@ -32,6 +32,8 @@ For the qwik frontend (already done in this demo)
 pnpm add -D -w @tauri-apps/api # or `cd apps/ollama-tauri-qwik && npm i -D @tauri-apps/api` 
 ```
 
+4. Running [Ollama](https://ollama.com/) local or configure the connection here [config](https://github.com/vanvuongngo/ollama-tauri-qwik/blob/1a1713bd3bb21442e9b00acbaeea445e8ecc9fff/apps/ollama-tauri-qwik/src-tauri/src/commands/l10n.rs#L49)
+
 ### Start app
 
 To run in development mode
