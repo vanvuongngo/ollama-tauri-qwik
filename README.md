@@ -1,10 +1,13 @@
 # AI Agent for Ollama 2025
 
-## Demo of using Ollama, Tauri 2 + Qwik
+## Demo of using Ollama + Tauri v2 + Qwik
 
 This demo is inspired by the project [ollama-tauri-client](https://github.com/elijahmg/ollama-tauri-client) from [Ilya F](https://github.com/elijahmg).
 
 Here we are using [Ollama](https://ollama.com/), [Tauri](https://tauri.app/) with the [Qwik](https://qwik.dev/) frontend framework instead of Svelte.
+
+![ollama-tauri-qwik](https://github.com/user-attachments/assets/829eb474-6e6c-4e39-9ea2-b1feb9d24ae6)
+
 
 ## Get Started
 
