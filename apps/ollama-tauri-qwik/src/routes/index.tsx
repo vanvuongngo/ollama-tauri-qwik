@@ -57,16 +57,17 @@ export default component$(() => {
             name="language"
             id="language-select"
             onChange$={(e) => {
-              if (e.target?.value) {
-                e.target.checked = true;
-                if (e.target.value === "english") {
+              const target = e.target as HTMLInputElement;
+              if (target.value) {
+                target.checked = true;
+                if (target.value === "english") {
                   message.value = PROMPT_MESSAGE;
                   return;
                 }
 
                 message.value = "";
                 invoke("t", {
-                  language: e.target.value,
+                  language: target.value,
                   promptMessage: PROMPT_MESSAGE,
                 }).catch((error) => console.error(error));
               }
