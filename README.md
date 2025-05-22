@@ -48,6 +48,12 @@ To package the desktop application for installations
 pnpm build # or `cd apps/ollama-tauri-qwik && npm tauri build`
 ```
 
+### Change ollama host
+
+Currently the app is using hard coded localhost. To adapt the Ollama host, see:
+
+https://github.com/vanvuongngo/ollama-tauri-qwik/blob/992519315a6c461239ffa84603934cd0473c3814/apps/ollama-tauri-qwik/src-tauri/src/commands/l10n.rs#L49
+
 ## The pros of this tech-stack
 
 - [Tauri](https://tauri.app/) is more secure and fast because it is based on [Rust](https://www.rust-lang.org/) and it has a quite small app size by using the OS's native web renderer
