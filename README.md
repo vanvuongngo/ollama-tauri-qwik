@@ -70,3 +70,45 @@ https://github.com/vanvuongngo/ollama-tauri-qwik/blob/992519315a6c461239ffa84603
   - also it is an option to lower your AI cost by hosting your AI on premises
   - or you need your own embedded data (images, pdf ...) which can not be shared to another company and country 
   - it can also be an option if you are worried about potential Censorship
+
+## The story behind this template
+
+It was a typical Tuesday evening when Van Vuong, a skilled JavaScript developer, stumbled upon an 
+interesting open-source project on GitHub. The project, called "ollama-tauri-client" caught his 
+attention with its innovative use of AI-powered Large Language Models (LLMs) in a desktop app 
+template. As he delved deeper into the codebase, Van Vuong realized that the project's creator had 
+used Rust as the backend language and web technologies for building the frontend.
+
+Intrigued by the combination of technologies, Van Vuong decided to take the project under his wing 
+and create a fork of it. He named his fork "ollama-tauri-qwik," aiming to showcase the possibilities 
+of using AI-powered LLMs in a desktop app template.
+
+As Van Vuong worked on ollama-tauri-qwik, he encountered a common problem when working with JavaScript: 
+its single-threaded nature made it challenging to handle streaming data out-of-the-box. This 
+limitation resulted in poor UX experiences whenever he called an LLM. The UI would freeze 
+until the entire response was processed, which defeated the purpose of using AI in real-time.
+
+Determined to overcome this hurdle, Van Vuong turned to Rust as his new backend language. With its 
+multi-threaded capabilities and efficient memory management, Rust proved to be the perfect 
+choice for ollama-tauri-qwik's Tauri backend. He leveraged Inter-Process Communication (IPC) between 
+the frontend and backend to stream tokens immediately, eliminating the need for synchronous 
+API calls.
+
+Van Vuong's experience with JavaScript also gave him an edge when working with Ollama, a popular 
+LLM server used as the LLMA provider in ollama-tauri-qwik. He was well-versed in using Ollama and 
+knew its strengths and weaknesses, making it easier to integrate the AI model into his 
+project.
+
+As Van Vuong continued to work on ollama-tauri-qwik, he realized that the fork's potential went beyond 
+just demonstrating the feasibility of LLMs in a desktop app template. The project could be 
+used as a proof-of-concept for other developers interested in exploring AI-powered tools. By 
+sharing his expertise and codebase with the community, Van Vuong aimed to inspire others to 
+experiment with AI and push the boundaries of what was possible.
+
+With ollama-tauri-qwik nearing completion, Van Vuong's fork had become more than just an interesting 
+project – it had turned into a valuable resource for anyone looking to tap into the power of 
+LLMs. As he shared his work on GitHub, Van Vuong couldn't help but wonder what other exciting 
+possibilities would arise from this intersection of AI and desktop app development.
+
+The ollama-tauri-qwik story didn't end there; it was just beginning, with the potential to inspire a 
+new wave of developers to explore the frontiers of AI-powered tools.
