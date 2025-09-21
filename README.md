@@ -39,14 +39,16 @@ pnpm add -D -w @tauri-apps/api # or `cd apps/ollama-tauri-qwik && npm i -D @taur
 To run in development mode
 
 ```sh
-pnpm dev # or `cd apps/ollama-tauri-qwik && npm tauri dev`
+pnpm dev
 ```
+or `cd apps/ollama-tauri-qwik && npm tauri dev`
 
 To package the desktop application for installations
 
 ```sh
-pnpm build # or `cd apps/ollama-tauri-qwik && npm tauri build`
+pnpm build
 ```
+or `cd apps/ollama-tauri-qwik && npm tauri build`
 
 ### Change ollama host
 
@@ -64,7 +66,7 @@ https://github.com/vanvuongngo/ollama-tauri-qwik/blob/992519315a6c461239ffa84603
   - it is secure and highly scaleable as a static site generated (SSG) because Tauri has to serve static files
 
 - [Ollama](https://ollama.com/) is open source and fast tool to use LLMs locally, e.g. [Meta's Llama 3.2](https://ollama.com/library/llama3.2) or [DeepSeek-R1](https://ollama.com/library/deepseek-r1)
-  - that means your prompts and data stay fully private in case you have to be complient not to share them to other companies and countries (cloud-provider)
+  - that means your prompts and data stay fully private in case you have to be compliant not to share them to other companies and countries (cloud-provider)
   - also to keep your privacy about your ideas, your thoughts, your private topics ... will not be shared by anyone
   - if you have a requirement to have low latency or you have a lot of data which you can not pass to the internet or your internet connection is not available/ reliable (edge computing)
   - also it is an option to lower your AI cost by hosting your AI on premises
@@ -112,3 +114,5 @@ possibilities would arise from this intersection of AI and desktop app developme
 
 The ollama-tauri-qwik story didn't end there; it was just beginning, with the potential to inspire a 
 new wave of developers to explore the frontiers of AI-powered tools.
+
+The journey continues, please follow the next thing: https://github.com/vanvuongngo/ClaraN
